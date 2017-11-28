@@ -38,6 +38,7 @@
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3vv-na-EaN">
                                                     <rect key="frame" x="12" y="12" width="75" height="75"/>
                                                     <constraints>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="75" id="Z4U-eZ-LDv"/>
                                                         <constraint firstAttribute="width" secondItem="3vv-na-EaN" secondAttribute="height" multiplier="1:1" id="ppY-hh-m6U"/>
                                                     </constraints>
                                                 </imageView>
@@ -64,6 +65,7 @@
                                             <constraints>
                                                 <constraint firstAttribute="trailingMargin" secondItem="vW3-qx-YO1" secondAttribute="trailing" constant="4" id="26M-KS-5v8"/>
                                                 <constraint firstItem="3pt-RJ-BHR" firstAttribute="leading" secondItem="3vv-na-EaN" secondAttribute="trailing" constant="21" id="7tj-ae-9Wo"/>
+                                                <constraint firstItem="3vv-na-EaN" firstAttribute="top" secondItem="Sua-PB-TEp" secondAttribute="topMargin" constant="4" id="9fJ-an-217"/>
                                                 <constraint firstItem="lkH-AQ-J8w" firstAttribute="top" secondItem="3pt-RJ-BHR" secondAttribute="bottom" constant="7" id="G1Y-xL-0im"/>
                                                 <constraint firstItem="lkH-AQ-J8w" firstAttribute="leading" secondItem="3vv-na-EaN" secondAttribute="trailing" constant="21" id="HT5-nb-sAu"/>
                                                 <constraint firstItem="3vv-na-EaN" firstAttribute="leading" secondItem="Sua-PB-TEp" secondAttribute="leadingMargin" constant="4" id="Orf-EO-9GW"/>
@@ -72,7 +74,6 @@
                                                 <constraint firstItem="3vv-na-EaN" firstAttribute="width" secondItem="Sua-PB-TEp" secondAttribute="width" multiplier="0.75" constant="-165" id="b92-Ja-dAh"/>
                                                 <constraint firstItem="vW3-qx-YO1" firstAttribute="leading" secondItem="3vv-na-EaN" secondAttribute="trailing" constant="21" id="cIt-zK-P4d"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="lkH-AQ-J8w" secondAttribute="bottom" constant="1.5" id="fLD-Ya-GAW"/>
-                                                <constraint firstItem="3vv-na-EaN" firstAttribute="centerY" secondItem="Sua-PB-TEp" secondAttribute="centerY" id="ko3-HY-YeP"/>
                                                 <constraint firstItem="3pt-RJ-BHR" firstAttribute="top" secondItem="vW3-qx-YO1" secondAttribute="bottom" constant="8" id="nxM-a9-SNz"/>
                                                 <constraint firstItem="vW3-qx-YO1" firstAttribute="top" secondItem="Sua-PB-TEp" secondAttribute="topMargin" constant="4" id="oKK-eF-T2J"/>
                                             </constraints>
